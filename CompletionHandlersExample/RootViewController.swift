@@ -41,18 +41,11 @@ class RootViewController: UIViewController {
     }
     
     @objc fileprivate func buttonTapped() {
-        grabDataFromDatabase()
-    }
-    
-    func grabDataFromDatabase() {
         
-        DispatchQueueHelper.delay(bySeconds: 3.0, dispatchLevel: .background) {
-            let result = 1
-            DispatchQueueHelper.delay(bySeconds: 0.0, completion: {
-                self.label.text = "Result: \(result)"
-            })
+        Service.grabDataFromDatabase { (result) in
+            guard let result = result else { print("Faild to fetch result."); return }
+            self.label.text = "Result: \(result)"
         }
-        
     }
     
 }
