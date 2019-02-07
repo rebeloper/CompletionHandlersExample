@@ -12,6 +12,7 @@
 		C942DA7D220C2D6A0052B46F /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C942DA7C220C2D6A0052B46F /* RootViewController.swift */; };
 		C942DA7F220C2D6B0052B46F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C942DA7E220C2D6B0052B46F /* Assets.xcassets */; };
 		C942DA82220C2D6B0052B46F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C942DA80220C2D6B0052B46F /* LaunchScreen.storyboard */; };
+		C942DA8A220C2E3D0052B46F /* DispatchQueueHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C942DA89220C2E3D0052B46F /* DispatchQueueHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		C942DA7E220C2D6B0052B46F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C942DA81220C2D6B0052B46F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C942DA83220C2D6B0052B46F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C942DA89220C2E3D0052B46F /* DispatchQueueHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DispatchQueueHelper.swift; sourceTree = "<group>"; };
 		EF8A3380C1D2DF2ACB0925B4 /* Pods-CompletionHandlersExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CompletionHandlersExample.release.xcconfig"; path = "Target Support Files/Pods-CompletionHandlersExample/Pods-CompletionHandlersExample.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -69,6 +71,7 @@
 			children = (
 				C942DA7A220C2D6A0052B46F /* AppDelegate.swift */,
 				C942DA7C220C2D6A0052B46F /* RootViewController.swift */,
+				C942DA89220C2E3D0052B46F /* DispatchQueueHelper.swift */,
 				C942DA7E220C2D6B0052B46F /* Assets.xcassets */,
 				C942DA80220C2D6B0052B46F /* LaunchScreen.storyboard */,
 				C942DA83220C2D6B0052B46F /* Info.plist */,
@@ -82,7 +85,6 @@
 				64DA7E9CC9FF29B914EB5B2C /* Pods-CompletionHandlersExample.debug.xcconfig */,
 				EF8A3380C1D2DF2ACB0925B4 /* Pods-CompletionHandlersExample.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -205,6 +207,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C942DA8A220C2E3D0052B46F /* DispatchQueueHelper.swift in Sources */,
 				C942DA7D220C2D6A0052B46F /* RootViewController.swift in Sources */,
 				C942DA7B220C2D6A0052B46F /* AppDelegate.swift in Sources */,
 			);
